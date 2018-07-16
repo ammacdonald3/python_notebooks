@@ -1,8 +1,8 @@
 import random
-random_number = random.randint(1,10)
+random_number = random.randint(1, 10)
 
 # establish user while the user-input num doesn't equal the random num
-while True: 
+while True:
     user_num = input("Guess a number between 1 and 10: ")
     if int(user_num) != random_number:
         if int(user_num) > random_number:
@@ -15,5 +15,4 @@ while True:
         if again == 'n':
             break
         else:
-            random_number = random.randint(1,10)
-        
+            random_number = random.randint(1, 10)
