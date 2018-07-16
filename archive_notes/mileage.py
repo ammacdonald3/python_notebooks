@@ -1,0 +1,5 @@
+print("How many kilometers did you run today?")
+kms = float(input())
+miles = (kms / 1.60934)
+miles = round(miles, 2)
+print(f"You ran {miles} miles (or {kms} kilometers) today!")
