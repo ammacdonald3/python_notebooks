@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c512375c-ce4b-486c-859d-97e07e5aa5c7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scripts/pycharm_sample_notebook.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter_notebooks/.ipynb_checkpoints/functions_part_2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_notebooks/.ipynb_checkpoints/functions_part_2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter_notebooks/functions_part_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter_notebooks/functions_part_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scripts/bouncer.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scripts/bouncer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample_project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,17 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mileage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_scripts/mileage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +25,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +41,8 @@
         <option value="$PROJECT_DIR$/archive_notes/pycharm_sample_notebook.ipynb" />
         <option value="$PROJECT_DIR$/archive_notes/test.py" />
         <option value="$PROJECT_DIR$/archive_notes/sample.py" />
+        <option value="$PROJECT_DIR$/python_scripts/bouncer.py" />
+        <option value="$PROJECT_DIR$/python_scripts/practice_python/character_input.py" />
       </list>
     </option>
   </component>
@@ -57,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,16 +69,30 @@
               <item name="python_notes" type="462c0819:PsiDirectoryNode" />
               <item name="python_scripts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_notes" type="462c0819:PsiDirectoryNode" />
+              <item name="python_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_python" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="pyconsole" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python_notebooks" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python_notebooks" />
+      </console-settings>
+    </option>
+    <option name="myShowVariablesByDefault" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,8 +106,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mileage">
-    <configuration name="copying" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.character_input">
+    <configuration name="bouncer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_notebooks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +115,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/archive_notes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/archive_notes/copying.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_scripts/bouncer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="character_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_notebooks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_scripts/practice_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_scripts/practice_python/character_input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +157,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_scripts/mileage.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -166,17 +198,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.copying" />
       <item itemvalue="Python.sample" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.mileage" />
+      <item itemvalue="Python.bouncer" />
+      <item itemvalue="Python.character_input" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.character_input" />
         <item itemvalue="Python.mileage" />
+        <item itemvalue="Python.bouncer" />
         <item itemvalue="Python.sample" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.copying" />
       </list>
     </recent_temporary>
   </component>
@@ -196,31 +230,45 @@
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="738" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32831326" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47891566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.29819277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/python_scripts/mileage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_scripts/mileage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archive_notes/copying.py" />
     <entry file="file://$PROJECT_DIR$/archive_notes/sample.py" />
     <entry file="file://$PROJECT_DIR$/archive_notes/test.py" />
@@ -228,10 +276,24 @@
     <entry file="file://$PROJECT_DIR$/archive_notes/copying.py" />
     <entry file="file://$PROJECT_DIR$/archive_notes/test.py" />
     <entry file="file://$PROJECT_DIR$/archive_notes/sample.py" />
+    <entry file="file://$PROJECT_DIR$/python_scripts/bouncer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_scripts/mileage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_scripts/practice_python/character_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
