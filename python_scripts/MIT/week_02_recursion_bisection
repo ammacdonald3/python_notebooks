@@ -1,8 +1,0 @@
-def isIn(char, aStr):
-    x = aStr[len(aStr)/2]
-    if char == x:
-        return True
-    #elif char < x:
-        
-isIn('a', 'andrew')
-        
